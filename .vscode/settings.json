@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "stdio.h": "c"
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "terminal.integrated.focusAfterRun": "terminal",
+  "terminal.integrated.cursorBlinking": true
+}
