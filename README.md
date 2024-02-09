@@ -4,4 +4,4 @@
 
 ## Stephen Prata
 
-![book-cover](./book-cover.jpg)
+<img src="./book-cover.jpg" width="300">
