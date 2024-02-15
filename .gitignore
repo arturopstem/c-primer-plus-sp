@@ -2,3 +2,4 @@ src/**/*
 !src/**/*.*
 !src/**/*/
 a.out
+!makefile
