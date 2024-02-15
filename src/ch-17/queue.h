@@ -5,8 +5,13 @@
 
 /* INSERT ITEM TYPE HERE */
 /* FOR EXAMPLE */
-typedef int Item; // for use_q.c
+// typedef int Item; // for use_q.c
 /* OR typedef struct item {int gumption; int charisma;} Item */
+typedef struct item // for mall.c
+{
+    long arrive;     // the time when a customer joins the queue
+    int processtime; // the number of consultation minutes desired
+} Item;
 
 #define MAXQUEUE 10
 
