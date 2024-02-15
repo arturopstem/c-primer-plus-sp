@@ -4,3 +4,6 @@ films3:
 use_q:
 	gcc -g use_q.c queue.c -o $@
 
+mall:
+	gcc -g mall.c queue.c -o $@
+
