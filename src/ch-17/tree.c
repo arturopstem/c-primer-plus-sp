@@ -289,6 +289,12 @@ static void DeleteNode(Trnode **ptr)
         *ptr = (*ptr)->right;
         free(temp);
     }
+    else if ((*ptr)->right == NULL)
+    {
+        temp = *ptr;
+        *ptr = (*ptr)->left;
+        free(temp);
+    }
     else /* deleted node has two children */
     {
         /* find where to reattach right subtree */
