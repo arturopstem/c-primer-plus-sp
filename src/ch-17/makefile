@@ -7,3 +7,6 @@ use_q:
 mall:
 	gcc -g mall.c queue.c -o $@
 
+petclub:
+	gcc -g petclub.c tree.c -o $@
+
